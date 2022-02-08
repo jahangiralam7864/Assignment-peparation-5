@@ -1,7 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 4px;
 }
 body{
-    background-color:  rgb(66, 155, 124);;
+    background-color:  rgb(66, 155, 124);
+}
+h1{
+    color: blue;
 }
