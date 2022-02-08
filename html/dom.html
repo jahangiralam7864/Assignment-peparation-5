@@ -7,7 +7,29 @@
     <title>Events</title>
 </head>
 <body>
-    <h1 onclick="console.log('Hello Bangladesh')">Event niye clickbaji </h1>
-    <button onclick="console.log(7)">Click me</button>
+<button id="make-green">Click me</button>    
+<button id="make-blue">Click me</button>    
+<button id="make-red">Click me</button>
+<button id="make-gray">Click me</button>    
+
+    <script src="events.js"></script>
+    <script>
+        const hotPinkButton = document.getElementById('make-green');
+        hotPinkButton.addEventListener('click', function (green) {
+            document.body.style.backgroundColor = 'green';
+        });
+        const blue = document.getElementById('make-blue');
+        blue.addEventListener('click', function (green) {
+            document.body.style.backgroundColor = 'blue';
+        });
+        // const hotPinkButton = document.getElementById('make-red');
+        // hotPinkButton.addEventListener('click', function (green) {
+        //     document.body.style.backgroundColor = 'red';
+        // });
+        // const hotPinkButton = document.getElementById('make-gray');
+        // hotPinkButton.addEventListener('click', function (green) {
+        //     document.body.style.backgroundColor = 'gray';
+        // });
+    </script>
 </body>
 </html> 
