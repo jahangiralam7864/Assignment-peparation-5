@@ -18,3 +18,14 @@ goldenButton.addEventListener('click',makeGoldenutton);
 function makeGoldenutton() {
     document.body.style.backgroundColor = 'gold';
 }
+
+const hotPinkButton = document.getElementById('hotPink');
+hotPinkButton.addEventListener('click',function () {
+    document.body.style.backgroundColor = 'yellow';
+});
+
+
+function clickButton() {
+    const p = document.getElementById('clicking');
+    p.innerText ='my name is jahangir alam';
+}
